@@ -9,24 +9,48 @@
     <body>
         <div>
             <ul class= "liststyle">
-                <li class="liststyle2"> <a href="home.html">Home</a> </li>
-                <li class="liststyle2"> <a href="aboutme.html">About</a></li>
-             </ul>
+                <li class="liststyle2"> <a href="Tay Stewart.html">Tay Stewart</a> </li>
+                <li class="liststyle2"> <a href="Aboutme.html">About</a></li>
+                <li class="liststyle2"> <a href="Blog.html">Blog</a></li>
+                <li class="liststyle2"> <a href="contact.html">Contact</a></li>
+               </ul>
           </div>
 <section>
             <h2> Contact Me</h2>
-            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alsalammasjid.org%2Fcontact%2F&psig=AOvVaw2gwuP8z7C3W5AOoIDf_2ZI&ust=1612242358805000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLC_iZP1x-4CFQAAAAAdAAAAABAD" alt="thecupajoe">
-            <p> Please complete the following fields below in order to contact me. Hope to hear from you!</p>
+            <img src="https://lh3.googleusercontent.com/6RUtgYFndOSjJMSMQwhITCmlY_4AWsHIsRY__5Cyqtdidh3cBi6n5M-uj0GF7mx9P7fNQ0IqHbOEZg9A1VYuCU9MQ5CkfDMHLBx48E-z2eVEKn0MzFE4Kjv4t4J-MefLmnHeeUiRmLIdHKiP_vWL3klAeqDnnGR75qb_5N3L00R3RRh2z6wW1eOe74DX4UytjP-ckIS7wbTgaOx0HuQpvGQIw6VEEY5mnwgSk1chqK89jx_pm1cNuBPPRwW00md9cvd1nGqQmDnlQZNzHsC3ZJtA4xWZ-fMXXqbKQv_SjUQ0uRlTdjj2f-SY3K4pv1j4IJ6n8Rv9xPp9OHFj-tI_kn0axO1fARPEeUV0mV56v70jn59VSwqRg5u5MYTNMMVmwQKCTVd6uLXdptOxJB4AI-Ovhx_V-1S8gj1WVvH24O9H6Qk8eAHY-a9uDg2Didpt09leGeier48PLD04fFBWT1lUooNUQ8VU-p3oYowOi7FpnVwXnClZdW6UKSBuWV6K-nKhaFOKUbSgHAeMuN6eo1axuk8M0XmxguygM_3Wkuw36lCEoiy2o5UBNyr53GICrSRtT9mcSdorFcE5300Cdt-oYJxzezg45_y1shB5ERapIWeqIinVoDdAYj8YR4KQn2D-2K6cIvkgW1p5TyW8cB0GLxHk9pksruTLIpx_Mde5GeUKj0iJ7pILB5no=w960-h300-no?authuser=5" 
+            alt="Contact Us Image">
+            <p> Are you reading to discuss your website need? Conact me via e-mail at <em>info@dummyaccount.com</em>
+                or use the form below to find out how I can help your business.
+            </p>
             <div class="form">
-            <form action="https://formspree.io/f/xrgoqlrr" method="POST">
-            <input type="text" required= "true" placeholder="Enter Address"/>
-            <br>
-            <input type="text"required="true" placeholder="Enter First Name"/>
-            <input type="text" required="true" placeholder="Enter Last Name"/>
-            <br>
-            <textarea rows="25" cols="30"placeholder="Comments"></textarea>
-            <br>
-            <button type="submit">Submit</button>
+            <form action="https://formspree.io/f/xrgoqlrr" method="POST" id="contact_form">
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" placeholder="My name" name="name" id="name_input" required>
+                  </div>
+                  <div class="email">
+                    <label for="email"> E-mail</label>
+                    <input type="email" placeholder="My e-mail" name="email" id="email_input" required>
+                  </div>
+                  <div class="telephone">
+                    <label for="name">Telephone Number</label>
+                    <input type="text" placeholder="My number" name="telephone" id="telephone_input" required>
+                  </div>
+                  <div class="subject">
+                    <label for="subject">Subject Line</label>
+                    <select placeholder="Subject line" name="subject" id="subject_input" required>
+                      <option disabled hidden selected>Subject line</option>
+                      <option>I'd like to start a project</option>
+                      <option>I'd like to ask a question</option>
+                    </select>
+                  </div>
+                  <div class="message">
+                    <label for="message">Write Message Here</label>
+                    <textarea name="message" placeholder="Leave A Message!" id="message_input" cols="30" rows="5" required></textarea>
+                  </div>
+                  <div class="submit">
+                    <input type="submit" value="Send Message" id="form_button" />
+                  </div>
             </form>
             </div>
 </section>
