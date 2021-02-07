@@ -36,13 +36,13 @@ img{
   font-variant: small-caps;
   text-align:center;
 }
-/* below was created to allow the styling of the colum lists*/
+/* below was created to allow the styling of the column lists*/
 .liststyle{
   list-style-type: none;
   margin: 0;
-  padding: 2%;
+  padding: 0%;
   overflow: hidden;
-  background-color: teal;
+  background-color:#45b3c7 ;
 }
 
 .liststyle2 {
@@ -53,7 +53,7 @@ img{
 }
 /*below cerates the changing color effects when hovering over menu*/
 .liststyle2:hover {
-  background-color: white;
+  background-color: pink;
 }
 /*below assists in centering the columns and centering for aesthetic purposes*/
 .columns {
