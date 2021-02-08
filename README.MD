@@ -15,6 +15,6 @@ Added moving gifs and videos to further create a fun interaction with the page.
 Adding link to more pages created by the student for quick viewing.
 
 User Stories:
-As a page visitor, I want to be able to navigate each page so that I can vieweach page without issues.
-As a page visitor, I want to be able to be able to get to the top and bottom of a page without having to scroll so that I can quickly view each page.
-As a page visitor, I want to be able to contact the web developer easily, so that I can send quick messages and get responses about my inquiry.
+As a potiental client, I want to have a landing page, show casing all features of the website, so that I am motivated to reach out to the creator.
+As a potential client, I want to have a page showing other client reviews, so I am motivated to work with the creator.
+As a potential clients, I would like the platform to have guided structure, so  that I have a good overview of creators work, so that I am motivated to contact them.
