@@ -17,4 +17,4 @@ Adding link to more pages created by the student for quick viewing.
 User Stories:
 As a potiental client, I want to have a landing page, show casing all features of the website, so that I am motivated to reach out to the creator.
 As a potential client, I want to have a page showing other client reviews, so I am motivated to work with the creator.
-As a potential clients, I would like the platform to have guided structure, so  that I have a good overview of creators work, so that I am motivated to contact them.
+As a potential client, I would like the platform to have guided structure, so  that I have a good overview of creators work, so that I am motivated to contact them.
