@@ -1,17 +1,18 @@
 body{
     background-image: url("https://i.pinimg.com/originals/a8/cf/d1/a8cfd15e1634174251a7db414cd898ad.png"); 
     /* This line adds the background chosen for all pages*/
-    background-color: #cccccc; /* this provides a color should the image not work properly*/
+    background-color: grey; /* this provides a color should the image not work properly*/
     background-repeat: no-repeat; /*ensure no repeats and provides one continous image*/
     background-position:center;/*positions image*/
     background-size:cover; /*resizes the image to cover width of screen*/
-}
+    }
+
 img{
     /*below instructions were created to keep the image relative to size of the window*/
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 60%;
     height:auto;
   }
   /*image will flip when mouse hovers over it*/
@@ -42,18 +43,45 @@ img{
   margin: 0;
   padding: 0%;
   overflow: hidden;
-  background-color:#45b3c7 ;
 }
 
 .liststyle2 {
   display: inline;
   text-align: center;
-  padding:10%;
+  padding:5%;
   text-decoration: none;
+  font-family: cursive, 'Courier New', Courier, monospace;
+  float: left;
 }
 /*below cerates the changing color effects when hovering over menu*/
 .liststyle2:hover {
   background-color: pink;
+}
+.homepanel2{
+  float:left;
+  width: 50%;
+  padding:10px;
+  height:300px;
+  clear:both;
+}
+.homepanel3{
+  float:right;
+  width: 50%;
+  clear:both;
+}
+.homepanel1 {
+  content:"";
+  display:flex;
+  clear:both;
+  font-size: 10px;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imagehome2{
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
 }
 /*below assists in centering the columns and centering for aesthetic purposes*/
 .columns {
