@@ -26,27 +26,26 @@
             <form action="https://formspree.io/f/xrgoqlrr" method="POST" id="contact_form">
                 <div class="name">
                     <label for="name">Name</label>
-                    <input type="text" placeholder="My name" name="name" id="name_input" required>
+                    <input type="text" name="name" id="name_input" required>
                   </div>
                   <div class="email">
                     <label for="email"> E-mail</label>
-                    <input type="email" placeholder="My e-mail" name="email" id="email_input" required>
+                    <input type="email" name="email" id="email_input" required>
                   </div>
                   <div class="telephone">
                     <label for="name">Telephone Number</label>
-                    <input type="text" placeholder="My number" name="telephone" id="telephone_input" required>
+                    <input type="text" name="telephone" id="telephone_input" required>
                   </div>
                   <div class="subject">
                     <label for="subject">Subject Line</label>
                     <select placeholder="Subject line" name="subject" id="subject_input" required>
-                      <option disabled hidden selected>Subject line</option>
                       <option>I'd like to start a project</option>
                       <option>I'd like to ask a question</option>
                     </select>
                   </div>
                   <div class="message">
                     <label for="message">Write Message Here</label>
-                    <textarea name="message" placeholder="Leave A Message!" id="message_input" cols="30" rows="5" required></textarea>
+                    <textarea name="message" id="message_input" cols="30" rows="5" required></textarea>
                   </div>
                   <div class="submit">
                     <input type="submit" value="Send Message" id="form_button" />
