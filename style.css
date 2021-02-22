@@ -37,25 +37,64 @@ img{
   text-align:center;
 }
 /* below was created to allow the styling of the column lists*/
-.liststyle{
-  list-style-type: none;
-  margin: 0;
-  padding: 0%;
-  overflow: hidden;
+nav {
+  width: 80%;
+  margin: 0 auto;
+  background: #f4f7f6;
+  padding: 50px 0;
+  box-shadow: 0px 5px 0px #dedede;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
 }
 
-.liststyle2 {
-  display: inline;
-  text-align: center;
-  padding:5%;
+nav ul li a {
+  display: block;
+  padding: 15px;
   text-decoration: none;
-  font-family: cursive, 'Courier New', Courier, monospace;
-  float: left;
+  color: #45b3c7;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 10px;
 }
-/*below cerates the changing color effects when hovering over menu*/
-.liststyle2:hover {
-  background-color:#45b3c7;
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
 }
+nav ul li a:hover {
+  color: #2162b1;
+}
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #2162b1;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
 .homepanel2{
   float:left;
   width: 50%;
