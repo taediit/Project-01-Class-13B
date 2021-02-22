@@ -1,10 +1,5 @@
 body{
-    background-image: url("https://i.pinimg.com/originals/a8/cf/d1/a8cfd15e1634174251a7db414cd898ad.png"); 
-    /* This line adds the background chosen for all pages*/
-    background-color: grey; /* this provides a color should the image not work properly*/
-    background-repeat: no-repeat; /*ensure no repeats and provides one continous image*/
-    background-position:center;/*positions image*/
-    background-size:cover; /*resizes the image to cover width of screen*/
+    background-color:#f4f7f6; /* this provides a color should the image not work properly*/
     }
 
 img{
@@ -24,14 +19,17 @@ img{
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       font-size: 250%;
     text-align:center;
+    color:#45b3c7;
   }
   h2{
       text-align: center;
+      color:#45b3c7;
   }
   p, li {
       font-family: Arial, Helvetica, sans-serif;
     font-size:150%;
     text-align:center;
+    color:#031935;
   }
 .uppercase{
   font-variant: small-caps;
@@ -55,7 +53,7 @@ img{
 }
 /*below cerates the changing color effects when hovering over menu*/
 .liststyle2:hover {
-  background-color: pink;
+  background-color:#45b3c7;
 }
 .homepanel2{
   float:left;
