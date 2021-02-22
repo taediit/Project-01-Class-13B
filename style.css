@@ -36,7 +36,7 @@ img{
   font-variant: small-caps;
   text-align:center;
 }
-/* below was created to allow the styling of the column lists*/
+/* css style for nav bar that does strike through*/
 nav {
   width: 80%;
   margin: 0 auto;
@@ -94,7 +94,7 @@ nav.stroke ul li a:hover:after {
 nav.fill ul li a {
   transition: all 2s;
 }
-
+/* controls the flaot section on first page*/
 .homepanel2{
   float:left;
   width: 50%;
@@ -155,6 +155,8 @@ div.polaroidclass{
   .columns{
       max-width: 100%;
   }
+
+  /*controls the form design on contact page*/
 .form{
   width:340px;
   height:440px;
@@ -299,3 +301,8 @@ textarea {
   input[type='text'], [type='email'], select, textarea {
     font-size: 0.875em;
   }
+
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
